@@ -5,6 +5,8 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,5 +35,12 @@ public class RecipeList extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recipeListItemAdapter = new RecipeListItemAdapter(recipeList);
         recyclerView.setAdapter(recipeListItemAdapter);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.recipe_list_activity_options, menu);
+        return true;
     }
 }

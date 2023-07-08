@@ -1,4 +1,4 @@
-package com.example.recipemobile;
+package com.example.recipemobile.Model;
 
 public class Recipe {
 

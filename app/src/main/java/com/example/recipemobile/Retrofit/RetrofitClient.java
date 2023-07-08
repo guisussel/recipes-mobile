@@ -1,4 +1,4 @@
-package com.example.recipemobile;
+package com.example.recipemobile.Retrofit;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

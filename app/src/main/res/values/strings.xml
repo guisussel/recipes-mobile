@@ -3,4 +3,13 @@
     <string name="id">ID:</string>
     <string name="name">Name:</string>
     <string name="new_recipe">New recipe</string>
+    <string name="warning">Warning\n</string>
+    <string name="back">Back</string>
+    <string name="recipe_name_cannot_be_null">Recipe name cannot be null!</string>
+    <string name="insert_new_recipe_name">Insert new recipe name</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="the_recipe">"The recipe "</string>
+    <string name="was_successfully_saved">" was successfully saved!"</string>
+    <string name="could_not_save_the_recipe_try_again_later">Could not save the recipe. Try again later</string>
 </resources>

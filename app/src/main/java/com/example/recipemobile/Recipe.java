@@ -2,12 +2,12 @@ package com.example.recipemobile;
 
 public class Recipe {
 
-    private int Id;
+    private int id;
 
     private String name;
 
     public Recipe(int id, String name) {
-        Id = id;
+        this.id = id;
         this.name = name;
     }
 
@@ -15,11 +15,11 @@ public class Recipe {
     }
 
     public int getId() {
-        return Id;
+        return id;
     }
 
     public void setId(int id) {
-        Id = id;
+        this.id = id;
     }
 
     public String getName() {
